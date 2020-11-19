@@ -14,7 +14,7 @@ class area {
         interactable con[10]; //containing interactables
 
     public:
-        //ctor
+        //ctors
         area() : area("Unknown", "No description available", { }) {};
         area(string n, string d, unsigned short a[5]);
         ~area(); 
@@ -23,6 +23,7 @@ class area {
         const string& getname();
         void setname(string n); 
         const string& getdesc();
+        //void setinter()
 
 
 };

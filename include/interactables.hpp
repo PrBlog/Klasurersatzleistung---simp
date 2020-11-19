@@ -6,7 +6,7 @@
 using namespace std;
 
 class interactable {
-    private:
+    protected:
         string name;
         string desc;
     

@@ -11,7 +11,7 @@ class interactables {
     
     public:
         //ctor
-        interactables( );
+        interactables();
 
 
 };

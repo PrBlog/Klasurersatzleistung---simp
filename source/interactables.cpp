@@ -11,21 +11,20 @@ using namespace std;
 interactable::interactable(string n, string l, string d)
 :   name{n}, location{l}, desc{d}{};
 
-
 //dtor
 interactable::~interactable(){
     cout << "dtor for interactable was called" << endl; //testing purposes
 };
 
-const std::string& interactable::getname(){
+const string& interactable::getname(){
     return name;
 }
 
-const std::string& interactable::getarea(){
+const string& interactable::getarea(){
     return location;
 }
 
-const std::string& interactable::getdesc(){
+const string& interactable::getdesc(){
     return desc;
 }
 

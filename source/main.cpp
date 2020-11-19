@@ -31,7 +31,7 @@ cin >> start;
 
 if (start == "yes" || start == "YES" || start == "Yes") {
     cout << "Starting the Game!" << endl;
-    system("CLS");
+    // system("CLS");
     game();
 } else if (start == "no") {
     break;

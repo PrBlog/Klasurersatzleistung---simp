@@ -1,0 +1,12 @@
+{
+	"C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+	"files.associations": {
+		"*.tcc": "cpp",
+		"type_traits": "cpp",
+		"iostream": "cpp",
+		"ostream": "cpp",
+		"iosfwd": "cpp",
+		"string": "cpp"
+	},
+	"C_Cpp.errorSquiggles": "Disabled"
+}
