@@ -1,3 +1,5 @@
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 #include <iostream>
 #include <stdlib.h>
 //#include <NPC.hpp>
@@ -7,6 +9,7 @@ class player {
 
     private:
         string name;
+        unsigned short location;
 
     public:
         //ctor
@@ -17,5 +20,8 @@ class player {
         //Methods
         const string& getname();
         void setname(string s);
+        const unsigned short getlocation(); 
+        void setlocation(unsigned short l);
 
 };
+#endif

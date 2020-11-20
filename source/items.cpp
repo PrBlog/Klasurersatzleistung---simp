@@ -8,7 +8,7 @@
 using namespace std;
 
 //ctor
-Items::Items(string n, string l, string d, bool p)
+Items::Items(string n, unsigned short l, string d, bool p)
 :  /* name{n}, location{l}, desc{d}, picked{p}*/
 interactable(n, l, d){picked = p;};
 
@@ -23,5 +23,7 @@ const Items::iscollected(){
 
 void Items::pickup(){
     picked = true;
+    location = 1;
+    cout << name << " was added to your inventory!" << endl;
 };
 

@@ -6,6 +6,7 @@
 #include "../include/area.hpp"
 #include "../include/ini.hpp"
 
+//#define allitems[20]  
 
 using namespace std;
 
@@ -28,11 +29,11 @@ cout << "no" << endl;
 setcolor(7);
 
 cin >> start;
-
 if (start == "yes" || start == "YES" || start == "Yes") {
     cout << "Starting the Game!" << endl;
     // system("CLS");
     game();
+
 } else if (start == "no") {
     break;
 }

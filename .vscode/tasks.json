@@ -6,7 +6,7 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/source/main.cpp", "${workspaceFolder}/source/Game3.cpp", "${workspaceFolder}/source/player.cpp", "${workspaceFolder}/source/area.cpp","${workspaceFolder}/source/interactables.cpp","${workspaceFolder}/source/ini.cpp","${workspaceFolder}/source/NPC.cpp", "${workspaceFolder}/source/items.cpp",
+                "${workspaceFolder}/source/main.cpp", "${workspaceFolder}/source/Game.cpp", "${workspaceFolder}/source/player.cpp", "${workspaceFolder}/source/area.cpp","${workspaceFolder}/source/interactables.cpp","${workspaceFolder}/source/ini.cpp","${workspaceFolder}/source/NPC.cpp", "${workspaceFolder}/source/items.cpp",
                 "-o",
                 "${workspaceFolder}/altadventuregame2",
                 "-std=c++17"

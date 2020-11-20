@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 class Items : public interactable {
     
         
@@ -15,8 +16,8 @@ class Items : public interactable {
         bool picked;
         
         //ctor
-        Items() : Items("Unknown Item", "Unknown location", "No further information", 0) {};
-        Items(string n, string l, string d, bool p);
+        Items() : Items("Unknown Item", 0, "No further information", 0) {};
+        Items(string n, unsigned short l, string d, bool p);
 
         //dtor
         ~Items();
@@ -24,8 +25,9 @@ class Items : public interactable {
         const iscollected();
         void pickup();
 
-
 };
+
+
 
 #endif
 

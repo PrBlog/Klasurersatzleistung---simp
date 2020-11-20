@@ -7,9 +7,10 @@
 using namespace std;
 
 //ctor
-NPC::NPC(string n, string l, string d)
+NPC::NPC(string n, unsigned short l, string d)
 :   interactable( n, l, d)
 {
+    cout << "ctor for NPC was called" << endl;
     for (int i = 0; i <= (20-1) ; i++){
         text[i] = "0";
     };

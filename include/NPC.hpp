@@ -13,8 +13,8 @@ class NPC : public interactable {
     public:
         
         //ctor
-        NPC () : NPC("Unknown Item", "Unknown location", "No further Information") {};
-        NPC(string n, string l, string d);
+        NPC () : NPC("Unknown Item", 0, "No further Information") {};
+        NPC(string n, unsigned short l, string d);
         
         //dtor
         ~NPC();

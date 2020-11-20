@@ -11,18 +11,18 @@ class interactable {
         string desc;
     
     public:
-        string location; 
+        unsigned short location; 
         
         //ctor
-        interactable() : interactable("Unknown Item", "Unknown location", "No further Information") {};
-        interactable(string n, string l, string d);
+        interactable() : interactable("Unknown Item", 0, "No further Information") {};
+        interactable(string n, unsigned short l, string d);
         //dtor
         ~interactable();
 
         //methods
         const string& getname();
-        const string& getarea();
+        const unsigned short getarea();
         const string& getdesc();
-        void setarea(string l);
+        void setarea(unsigned short l);
 };
 #endif
